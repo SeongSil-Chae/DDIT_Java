@@ -1,0 +1,40 @@
+package study03.sec03;
+
+import java.util.Scanner;
+
+public class CastingExample01 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		CastingExample01 obj = new CastingExample01();
+		obj.process();
+	}
+
+	public void process() {
+		method1(); 
+		
+	}
+	
+	public void method2() {
+		//byte -> int 
+		byte b1 = 20;
+		int i1 = b1;
+		System.out.println("i1="+i1);
+		
+	}
+	
+	public void method1 () {
+		int kor = 80;
+		int eng = 83;
+		int math = 84;
+		
+		// 국어 : 80, 영어 : 83, 수학 : 84   <-- 출력하고
+		// 총점 : ? 평균 : <- 출력하시고.
+		
+		System.out.println("국어: " + kor + "영어 " + eng + "수학 " + math);
+		int sum = kor + eng + math;
+		double avg = sum/3.0; // or double avg = (double)sum/3;
+		System.out.println("총점: "+ sum + "평균: " +avg);
+	
+	}
+}

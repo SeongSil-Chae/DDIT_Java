@@ -1,0 +1,21 @@
+package study03.sec03;
+
+import java.util.Scanner;
+
+public class css1 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		css1 obj = new css1();
+		obj.process();
+	}
+
+	public void process() {
+		
+		String a = sc.next();
+		System.out.println(a);
+		String a1= a;
+		int a2 = Integer.parseInt(a1);
+		System.out.println(a2);
+	}
+}

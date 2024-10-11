@@ -1,0 +1,131 @@
+package study03.sec03;
+
+import java.util.Scanner;
+
+public class Homework02 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		Homework02 obj = new Homework02();
+		obj.process();
+	}
+
+	public void process() {
+//		method1();
+//		method2();
+//		method3();
+//		method4();
+		method5();
+	}
+	
+	public void method1() {
+		/*
+		 *  스캐너를 통해 문자를 입력 받고 
+		 *  소수점 2째짜리 까지 출력하시오 
+		 *  
+		 */
+
+		System.out.println("실수를 입력해주세요.");
+		String num = sc.next();
+		
+		System.out.println(num);
+		String num1 = num;
+		int num2 = Integer.parseInt(num1);
+		System.out.println(num2);
+		
+		int sum = num2*100;
+		System.out.println(sum);
+		double sum2 = (double)(num2/100.00);
+		System.out.println(sum2);
+		
+
+	}
+	
+	public void method2() {
+		/*
+		 *  영어 대문자를 입력 받고 소문자로 변환 
+		 */
+		System.out.println("영어 대문자를 입력하시오");
+		String s = sc.next();
+		char ch = s.charAt(0); // 대문자 A 출력함
+		int i = (int)ch;
+		System.out.println(i);// char ch를 소문자 a로 변경해야함.
+		i = i+32;
+		char a = (char)i;
+		System.out.println(a);
+	
+//		int i1 = Integer.parseInt(ch);
+//		System.out.println(i1);
+		
+//		String A1 = "A";
+//		System.out.println(A1);
+//		int i1 = Integer.parseInt(A1);
+//		System.out.println(i1);
+		
+
+		
+	}
+	
+	public void method3() {
+		/*
+		 *  영어 소문자를 입력 받고 대문자로 변환
+		 */
+		System.out.println("영어 소문자를 입력하시오");
+		String s = sc.next();
+		char ch = s.charAt(0);
+		int i = (int)ch;
+		System.out.println(i);// char ch를 소문자 a로 변경해야함.
+		i = i-32;
+		char a = (char)i;
+		System.out.println(a);
+	}
+	
+	public void method4() {
+		/*
+		 * 	스캐너를 통해서 3자리 숫자를 입력 받고 각 자리수의 
+		 *  합을 구하시오.
+		 *  ex) 123 -> 1+2+3 -> 6 
+		 */
+		
+		System.out.println("3자리 숫자를 입력하세요");
+		String s = sc.next();
+		System.out.println(s);
+		int a = s.charAt(0);
+		int b = s.charAt(1);
+		int c = s.charAt(2);
+		
+//		int a1 = (int) a;
+//		int b1 = (int) b;
+//		int c1 = (int) c;
+
+		System.out.println(a+b+c);
+	
+		
+	}
+	
+	public void method5() {
+		/*
+		 * (풀 수 있는 사람만)
+		 *  스캐너를 통해 문자를 입력 받고 
+		 *  소수점 2째짜리 까지 '반올림'하여 출력하시오 
+		 *  ex) 12.1213 -> 12.12
+		 *      12.1271 -> 12.13 
+		 */
+		
+//		double a = 12.614;
+		String s = sc.next();
+		char ch = s.charAt(0);
+//		System.out.println(s);
+		
+		// 첫번째 방법
+	
+//		int b = (int)a;
+//		int c = (int)((a-b)*2);
+//		System.out.println(b+c);
+		// 2번째 방법
+//		
+//		a = (int)(a*100 +0.5) / 100.00;
+//		System.out.println(a);
+	}
+	
+}

@@ -1,0 +1,23 @@
+package study03.sec01;
+
+import java.util.Scanner;
+
+public class UnaryOperator {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		UnaryOperator obj = new UnaryOperator();
+		obj.process();
+	}
+
+	public void process() {
+		method1();
+	}
+	
+	public void method1() {
+		//부호 연산자
+		int num = 100;
+		int res = -num;
+		System.out.println(res);
+	}
+}

@@ -1,0 +1,32 @@
+package study04.sec04;
+
+import java.util.Scanner;
+
+public class PrintExample {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		PrintExample obj = new PrintExample();
+		obj.process();
+	}
+
+	public void process() {
+		method1();
+	}
+	
+	public void method1() {
+		// println
+		
+		System.out.println("println");
+		System.out.println("대전시");
+		System.out.println("중구");
+		System.out.println("계룡로");
+		
+		// print
+		System.out.println("println");
+		System.out.println("대전시");
+		System.out.println("중구");
+		System.out.println("계룡로");
+		
+	}
+}
