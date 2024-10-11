@@ -26,6 +26,7 @@ public class Homework03 {
 		 *   1번 실행시 cnt 값 1 증가시킬것.
 		 *   
 		 */
+		// Math.random()  0 ~0.99999
 		
 		int question = (int)(Math.random()*50)+1;
 		int cnt = 0; 
@@ -63,15 +64,25 @@ public class Homework03 {
 		System.out.println("년도 입력 : ");
 		int year = sc.nextInt();
 		
-		boolean four = year%4 ==0;
-		boolean a = year!=year*100;
-		boolean b = year ==year*400;
-		if((four && a)&& (a || b) ) {
-			System.out.println("윤년입니다.");
-		}
-		else {
-			System.out.println("평년입니다.");
-		}
+//		boolean four = year%4 ==0;
+//		boolean a = year!=year*100;
+//		boolean b = year ==year*400;
+//		if((four && a)&& (a || b) ) 
+//
+//		boolean four = year%4 ==0;
+//		boolean a = year%100==0;
+//		boolean b = year%400==0;
+//		if(b || (four && a) 		
+//		
+		
+		
+//		
+//		{
+//			System.out.println("윤년입니다.");
+//		}
+//		else {
+//			System.out.println("평년입니다.");
+//		}
 	}
 	
 }
