@@ -1,0 +1,27 @@
+package study04.sec04;
+
+import java.util.Scanner;
+
+public class Homework04 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		Homework04 obj = new Homework04();
+		obj.process();
+	}
+
+	public void process() {
+		// 가위 바위 보
+		//  1  2  3
+		// ex) user : 가위 com : 보
+		//          결과 : 이겼다.
+		System.out.println("가위(1) 바위(2) 보(3)");
+		int user = sc.nextInt();
+		System.out.println("가위(1) 바위(2) 보(3)");
+		int com = sc.nextInt();
+		
+		if(user<com) {
+//		(int)(Math.random()*3)+1;
+	}
+}
+}

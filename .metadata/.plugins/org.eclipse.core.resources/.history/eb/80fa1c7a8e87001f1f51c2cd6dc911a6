@@ -1,0 +1,25 @@
+package study04.sec04;
+
+import java.util.Scanner;
+
+public class IfExample {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		IfExample obj = new IfExample();
+		obj.process();
+	}
+
+	public void process() {
+		method1();
+	}
+	
+	public void method1() {
+		// if 조건식
+		
+		if(ture) {
+			System.out.println("if문 블록");
+		}
+		System.out.println("실행문");
+	}
+}

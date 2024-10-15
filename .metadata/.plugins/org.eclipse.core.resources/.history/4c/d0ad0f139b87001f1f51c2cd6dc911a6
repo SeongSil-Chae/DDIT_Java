@@ -1,0 +1,69 @@
+package study04.sec04;
+
+import java.util.Scanner;
+
+public class IfExample02 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		IfExample02 obj = new IfExample02();
+		obj.process();
+	}
+
+	public void process() {
+//		method1();
+		method2();
+
+	}
+
+	public void method2() {
+		// a, b 숫자를 입력 받고 연산자를 입력 받아 계산 처리하시오.
+		// ex) a= 2 b= 3 연산자 = + => 2+3 =5
+
+		System.out.println("a : ");
+		int a = sc.nextInt();
+		System.out.println("연산자 : ");
+		String op = sc.next();
+
+		System.out.println("b : ");
+		int b = sc.nextInt();
+
+		if (op.equals("+")) {
+
+		}
+	}
+
+	public void method1() {
+		// 정보처리 기사 점수를 입력하고 합격 여부를 판단하시오.
+		// 한과목이라도 40점 미만이면 불합격
+		// 평균 60점 미만이면 불합격
+
+		System.out.println("DB : ");
+		int db = sc.nextInt();
+
+		System.out.println("전자계산기 : ");
+		int cal = sc.nextInt();
+
+		System.out.println("데이터통신 : ");
+		int data = sc.nextInt();
+
+		System.out.println("소프트웨어 공학 : ");
+		int soft = sc.nextInt();
+
+		System.out.println("OS : ");
+		int os = sc.nextInt();
+
+		if (db + cal + data + soft + os >= 300) {
+			System.out.println("합격입니다.");
+		} else if (db >= 40 && cal >= 40 && data >= 40 && soft >= 40 && os >= 40) {
+
+		} else {
+			System.out.println("불합격입니다.");
+		}
+
+		{
+
+		}
+
+	}
+}

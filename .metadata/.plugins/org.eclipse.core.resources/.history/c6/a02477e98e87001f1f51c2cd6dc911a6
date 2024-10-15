@@ -1,0 +1,38 @@
+package study04.sec04;
+
+import java.util.Scanner;
+
+public class IfExample {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		IfExample obj = new IfExample();
+		obj.process();
+	}
+
+	public void process() {
+//		method1();
+		method2();
+	
+	}
+	
+	public void method2() {
+		// 점수를 입력받고 60점 이상이면 합격을 출력
+		System.out.println("점수: ");
+		int score = sc.nextInt();
+		if(score >=60) {
+			System.out.println("합격");
+		}
+		if(score<60);
+		System.out.println("불합격");
+	}
+	
+	public void method1() {
+		// if 조건식
+		
+		if(ture) {
+			System.out.println("if문 블록");
+		}
+		System.out.println("실행문");
+	}
+}

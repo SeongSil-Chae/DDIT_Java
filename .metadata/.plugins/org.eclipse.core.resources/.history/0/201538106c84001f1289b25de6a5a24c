@@ -1,8 +1,0 @@
-package study02.sec01;
-
-public class VarExample03 {
- public static void main(String[] args) {
-	 int x= 10;
-	 System.out.println("x = " +x);
-}
-}

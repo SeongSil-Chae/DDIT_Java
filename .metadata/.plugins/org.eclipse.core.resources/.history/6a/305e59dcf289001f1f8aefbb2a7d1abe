@@ -1,0 +1,48 @@
+package study04.sec06;
+
+import java.util.Scanner;
+
+public class ForExample01 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		ForExample01 obj = new ForExample01();
+		obj.process();
+	}
+
+	public void process() {
+//		method1();
+//		method2();
+		method3();
+	}
+	public void method3() {
+		//반복은을 이용해서 1~5까지의 합을 구하시오.
+		int sum = 0;
+		for (int i=1; i<=5; i++) {
+			sum += i;
+			System.out.println(sum);
+		}
+	}
+	
+	public void method2() {
+		// 반복문
+		// for
+		// int i =0    <<== 초기화식
+		// i < 10      <<== 조건식
+		// i++         <<== 증감식
+		for(int i=1; i<10; i++) {
+			System.out.println("현재 i 값은 " + i);
+		}
+	}
+	
+	
+	
+	public void method1() {
+		// 1+2+3+4+5
+		
+		int sum = 1+2+3+4+5;
+		
+		System.out.println("1~5까지 합은 : " + sum);
+		
+	}
+}
