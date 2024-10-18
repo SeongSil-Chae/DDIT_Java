@@ -28,7 +28,7 @@ public class ReferenceType02 {
 		
 		
 		
-		if( test.equals("")^test == null ) {
+		if(test == null|| test.equals("") ) {
 		System.out.println("값이 없다.");
 	}
 //		아래랑 위랑 같은 식임

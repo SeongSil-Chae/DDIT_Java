@@ -1,0 +1,50 @@
+package study05.sec01;
+
+import java.util.Scanner;
+
+public class ArrayExample03 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		ArrayExample03 obj = new ArrayExample03();
+		obj.process();
+	}
+
+	public void process() {
+//		method1();
+		method2();
+	}
+	
+	public void method2() {
+		// 학생 1 : 80 70 60
+		// 학생 2 : 92 84 75		
+		int [][] arr = new int [2][3];
+		
+		int[] stu1 = arr[0];
+		stu1[0] = 80;
+		stu1[1] = 70;
+		stu1[2] = 60;
+		
+		arr[1][0] = 92;
+		arr[1][1] = 84;
+		arr[1][2] = 75;
+		
+		for(int i=0; i<arr.length; i++) {
+			int sum=0;
+			for(int j = 0; j<arr[i].length; j++) {
+				sum += arr[i][j];
+			}
+			System.out.println("총점 : " +sum + "평균 : "+sum/3.0);
+		}
+		
+		
+		
+	}
+	
+	public void method1() {
+		int [][] arr = new int [4][5];
+		int [] a1 = arr[0];
+		int i = a1[0];
+		int i2 = arr[1][2];
+	}
+}

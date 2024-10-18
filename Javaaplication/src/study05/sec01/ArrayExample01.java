@@ -18,7 +18,23 @@ public class ArrayExample01 {
 //		method5();
 //		method6();
 		method7();
+//		method8();
 				
+	}
+	
+	public void method8() {
+		int[] arr = {1,2,3,4,5};
+		
+//		for (int i = 0; i < arr.length; i++) {
+//			int num = arr[i];
+//			System.out.println(num);
+//		}
+		// 위 아래 똑같음
+		// 향상된 for 문
+		for (int num : arr) {
+			System.out.println(num);
+		}
+		
 	}
 	
 	public void method7() {

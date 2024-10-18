@@ -1,0 +1,33 @@
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Array_prac {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		Array_prac obj = new Array_prac();
+		obj.process();
+	}
+
+	public void process() {
+
+		// 로또 만들기.
+
+		// 로또 45개 배열 만들기
+
+		// 1~45까지 값 담기
+
+		// 배열 섞기
+
+		// 6개짜리 배열 만들기
+
+		// System.arraycopy 이용해서 잘라 넣기
+
+		// 6개 배열 정렬하기.
+		
+		
+		
+		
+		
+}
+}
