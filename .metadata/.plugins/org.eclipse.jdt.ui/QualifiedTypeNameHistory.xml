@@ -4,5 +4,9 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="study06.sec03.Sing"/>
+    <fullyQualifiedTypeName name="study06.sec03.Constructor02"/>
+    <fullyQualifiedTypeName name="study06.sec03.Triangle"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="study06.sec03.Circle"/>
 </qualifiedTypeNameHistroy>

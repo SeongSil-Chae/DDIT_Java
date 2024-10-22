@@ -1,0 +1,67 @@
+package study06.homework;
+
+public class Homework11_1 {
+	public static void main(String[] args) {
+	
+		Point p1 = new Point(5,5);
+		System.out.println(p1);
+		Circle c1 = new Circle(p1, 7);
+		System.out.println(c1);
+	}
+	
+}
+class Cylinder{
+	// 원, 높이, 부피 원의 넓이 * 높이 (생성자 호출시 부피 자동으로 계산) 
+	int h;
+	double volume;
+	
+	
+	public Cylinder(Circle circle, int h) {
+		this.h = h;
+		this.volume= circle.area * h;
+		
+	}
+
+
+	@Override
+	public String toString() {
+		return "Cylinder [h=" + h + ", volume=" + volume + "]";
+	}
+	
+}
+
+class Circle{
+	double pi = Math.PI;
+	double r;
+	double area;
+	
+	// 원 중심 좌표, 반지름 길이, 넓이:pi*r*r , 원의 둘레: pi*2*r (생성자 호출시 넓이, 둘레 계산되게 할 것)
+	
+	public Circle(Point pointer, double r) {
+		this.r = r;
+		this.area = r*r*pi;
+	}
+
+	@Override
+	public String toString() {
+		return "Circle [pi=" + pi + ", r=" + r + ", area=" + area + "]";
+	}
+	
+}
+
+class Point{
+	 // x, y
+	
+	int x;
+	int y;
+	public Point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	@Override
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
+	}
+	
+	
+}

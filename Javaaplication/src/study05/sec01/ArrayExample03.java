@@ -30,10 +30,29 @@ public class ArrayExample03 {
 		// 5  6  15 16 25
 		int [][] arr = new int [5][5];
 		
-		
-		
-		
+		int cnt=1;
+		for (int i = 0; i < arr.length; i++) {
+			if(i%2==0) {
+			for (int j = 0; j < arr.length; j++) {
+				arr[j][i] = cnt;
+				cnt++;
+			  }
+			}
+			else if(i%2!=0) {
+				for (int j2 = arr.length-1; j2 >=0 ; j2--) {
+					arr[j2][i] = cnt;
+					cnt++;
+				}
+			}
+		}
+		for(int i=0;i<arr.length;i++) {
+			for(int k=0;k<arr[i].length;k++) {
+				System.out.print(arr[i][k]+"\t");
+			}
+			System.out.println();
+		}
 	}
+	
 	
 	public void method7() {
 		// 1  2  3  4  5

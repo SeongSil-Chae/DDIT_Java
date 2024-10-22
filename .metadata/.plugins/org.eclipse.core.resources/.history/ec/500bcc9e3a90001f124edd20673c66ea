@@ -1,0 +1,18 @@
+package study06.sec03;
+
+public class Constructor {
+	
+	// 기본 생성자
+	public Constructor() {
+		System.out.println("기본생성자");
+	}
+	
+	// 생성자
+	public Constructor(int a) {
+		System.out.println("int a를 파라미터로 가지는 생성자");
+	}
+	
+	public Constructor(int a , int b) {
+		System.out.println("int a, int b를 파라미터로 가지는 생성자");
+	}
+}
