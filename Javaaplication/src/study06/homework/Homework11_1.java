@@ -16,11 +16,12 @@ class Cylinder{
 	// 원, 높이, 부피 원의 넓이 * 높이 (생성자 호출시 부피 자동으로 계산) 
 	int h;
 	double volume;
-	
+	Circle circle;
 	
 	public Cylinder(Circle circle, int h) {
+		this.circle=circle;
 		this.h = h;
-		this.volume= circle.area * h;
+		volume= circle.area * h;
 		
 	}
 
@@ -33,6 +34,7 @@ class Cylinder{
 }
 
 class Circle{
+	Point pointer;
 	double pi = Math.PI;
 	double r;
 	double area;
@@ -41,9 +43,10 @@ class Circle{
 	// 원 중심 좌표, 반지름 길이, 넓이:pi*r*r , 원의 둘레: pi*2*r (생성자 호출시 넓이, 둘레 계산되게 할 것)
 	
 	public Circle(Point pointer, double r) {
+		this.pointer = pointer;
 		this.r = r;
-		this.area = r*r*pi;
-		this.round = pi*2*r;
+		area = r*r*pi;
+		round = pi*2*r;
 	}
 
 	@Override
