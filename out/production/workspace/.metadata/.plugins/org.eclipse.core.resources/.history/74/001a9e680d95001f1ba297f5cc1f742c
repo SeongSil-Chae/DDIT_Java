@@ -1,0 +1,8 @@
+package kr.or.ddit;
+
+public class Main03 {
+	public static void main(String[] args) {
+		int [] arr= {'22'};
+		System.out.println(arr.length);
+	}
+}

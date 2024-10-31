@@ -1,0 +1,9 @@
+package study06.sec06;
+
+public class Jobs {
+	String jobID;
+	String jobTitle;
+	int maxSalary;
+	int minSalary;
+	
+}

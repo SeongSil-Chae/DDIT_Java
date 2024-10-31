@@ -1,0 +1,82 @@
+package study06.homework;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Arrays;
+
+public class Homework13 {
+	public static void main(String[] args) {
+		Homework13 h13 = new Homework13();
+		h13.process();
+
+	}
+
+	public void process() {
+		String txt = readTxtFile();
+
+		Book book = getData(txt);
+//		System.out.println(book);
+
+	}
+
+	public Book getData(String txt) {
+		
+		Book book = new Book();
+//		book.name(txt);
+						
+		String[] txtList = txt.split("\n");
+//		System.out.println(Arrays.toString(txtList));
+		for(String text : txtList) {
+			text = text.trim();
+			if(text.contains("<h2 class=\"gd_name\">")) {
+				System.out.println(text);
+			}
+			
+//			System.out.println(text);
+//			System.out.println("-------");
+		}
+		
+		return book;
+	}
+
+	public String readTxtFile() {
+
+		byte[] f = null;
+		try {
+			f = Files.readAllBytes(Paths.get("book.txt"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return new String(f);
+	}
+}
+
+class Book {
+	String name;
+	String nameE;
+	String author;
+	String pub;
+	String date;
+
+	public void name(String txt) {
+//		String name = ;
+//		if (txt.contains("<h2 class=\"gd_name\">")) {
+//			String cut = "</h2>";
+//			cut = cut.replace("</h2>", "");
+//			String cut2 = "<h2 class=\"gd_name\">";
+//			cut2 = cut2.replace("<h2 class=\"gd_name\">", "");
+//
+//			System.out.println(cut2);
+//
+//		}
+	}
+
+	@Override
+	public String toString() {
+		return "Book [name=" + name + ", nameE=" + nameE + ", author=" + author + ", pub=" + pub + ", date=" + date
+				+ "]";
+	}
+
+}

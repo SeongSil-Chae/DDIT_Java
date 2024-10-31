@@ -1,0 +1,17 @@
+package study06.sec06;
+
+public class Employees {
+	private int employee_id;
+	private String first_name;
+	private String last_name;
+	private String email;
+	private String phone_number;
+	private String hire_date;
+	private String job_id;
+	private int salary;
+	private int commission_pct;
+	private int manager_id;
+	private int department_id;
+	private String emp_name;
+		
+}

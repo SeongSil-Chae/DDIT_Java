@@ -1,0 +1,20 @@
+package study05.sec03;
+
+public class Calculator {
+	public static void main(String[] args) {
+		Calculator c = new Calculator();
+		c.process();
+	}
+	
+	public void process() {
+		
+		
+	}
+	
+	
+	// + - / * 메소드 만들기
+	
+	public void add ()
+	
+	
+}

@@ -1,0 +1,28 @@
+package study06.sec04;
+
+public class MethodExample02 {
+
+	public static void main(String[] args) {
+		MethodExample02 me = new MethodExample02();
+		int method1 = me.mehtod1();
+		System.out.println("mehtod1 값 : " +method1);
+	}
+
+	public int mehtod1() {
+		return 10;
+	}
+	
+	public double method2() {
+		return 10.4;
+	}
+	
+	public String method3() {
+		return "abc";
+	}
+	
+	public int[] method4() {
+		int[] arr = {1,2,3};
+		return arr;
+	}
+	
+}

@@ -1,0 +1,24 @@
+package study04.sec06;
+
+import java.util.Scanner;
+
+public class ForExample01 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		ForExample01 obj = new ForExample01();
+		obj.process();
+	}
+
+	public void process() {
+		method1();
+	}
+	public void method1() {
+		// 1+2+3+4+5
+		
+		int sum = 1+2+3+4+5;
+		
+		System.out.println("1~5까지 합은 : " + sum);
+		
+	}
+}

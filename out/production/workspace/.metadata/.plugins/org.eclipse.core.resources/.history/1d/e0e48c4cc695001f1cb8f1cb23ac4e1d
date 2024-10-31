@@ -1,0 +1,15 @@
+package study06.sec06;
+
+public class BigLoadMain {
+	public static void main(String[] args) {
+		
+		Date d = new Date();
+		BigLoadData b1 = BigLoadData.getInstance();
+		
+		date d2 = new Date();
+		
+		System.out.println(de.getTime()-d1.getTime()+"ms");
+		
+		
+	}
+}

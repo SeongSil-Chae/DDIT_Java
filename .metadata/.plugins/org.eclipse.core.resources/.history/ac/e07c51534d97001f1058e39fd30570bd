@@ -1,0 +1,6 @@
+package study07;
+
+public class Student {
+	String name;
+	int age;
+}

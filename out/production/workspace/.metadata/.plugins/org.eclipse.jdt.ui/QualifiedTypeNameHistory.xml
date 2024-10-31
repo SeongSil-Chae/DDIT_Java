@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="study06.sec03.Sing"/>
+    <fullyQualifiedTypeName name="study06.sec03.Constructor02"/>
+    <fullyQualifiedTypeName name="study06.sec03.Triangle"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="study06.sec03.Circle"/>
+    <fullyQualifiedTypeName name="study06.sec04.MethodExample01"/>
+    <fullyQualifiedTypeName name="study06.sec04.MethodExample02"/>
+    <fullyQualifiedTypeName name="study06.sec04.MethodExample03"/>
+    <fullyQualifiedTypeName name="study06.homework.Work"/>
+    <fullyQualifiedTypeName name="study11.StringExample"/>
+    <fullyQualifiedTypeName name="study11.MathExample"/>
+    <fullyQualifiedTypeName name="study06.sec05.StaticExample01"/>
+    <fullyQualifiedTypeName name="study06.sec05.Student"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="study06.sec06.Circle"/>
+    <fullyQualifiedTypeName name="study06.sec06.Person"/>
+    <fullyQualifiedTypeName name="util.ScanUtil"/>
+    <fullyQualifiedTypeName name="study06.sec06.Jobs"/>
+    <fullyQualifiedTypeName name="study06.sec06.Department"/>
+    <fullyQualifiedTypeName name="study06.sec06.SingleTon"/>
+    <fullyQualifiedTypeName name="study06.sec06.BigLoadData"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+</qualifiedTypeNameHistroy>

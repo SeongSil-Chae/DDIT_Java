@@ -14,6 +14,7 @@ public class StudentMain {
 		Student s4 = new Student("오정균", 20, "401호", "일본");
 		
 
+		
 	}
 
 	

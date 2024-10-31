@@ -1,0 +1,9 @@
+package study07.phone;
+
+public class PhoneMain {
+	public static void main(String[] args) {
+		DmbPhone dmb = new DmbPhone();
+		dmb.dmb();
+		dmb.tell();
+	}
+}

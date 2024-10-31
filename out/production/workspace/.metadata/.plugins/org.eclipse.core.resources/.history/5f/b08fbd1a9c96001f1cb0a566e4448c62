@@ -1,0 +1,61 @@
+package study06.homework;
+
+import study05.sec03.Month;
+
+public class Homework16 {
+	public static void main(String[] args) {
+		Homework16 p = new Homework16();
+		p.process();
+	}
+	public void process() {
+		 pr(Planet.EARTH);
+	}
+	
+	
+	public void pr(Planet name) {
+		System.out.println(name);
+	}
+}
+
+enum Planet {
+	// 수금지화목토천해
+	// 필드로 이름, 행성 반지름, 행성 둘레
+	// 생성자 반지름 -> 둘레가 만들어지게 할 것.
+
+	// ex) Planet.EARTH.print(); -> 지구, 반지름 : 6400km, 둘레 : 42000km
+
+	
+	MERCURY, VENUS, EARTH, MARS, JUPITER, SATURN, URANUS, NEPTUNE;
+	
+
+	
+	String name;
+	Planet(String name){
+		this.name = name;
+	}
+	int r;
+	Planet(int r){
+		this.r = r;
+	}
+	double perimeter;
+	Planet(double perimeter){
+		this.perimeter = perimeter;
+	}
+	
+	
+	public void print(String name) {
+		System.out.println(name);
+	}
+	public void print(int r) {
+		System.out.println(r);
+	}
+	public void print(double perimeter) {
+		System.out.println(perimeter);
+	}
+	
+	
+	
+	
+
+}	
+

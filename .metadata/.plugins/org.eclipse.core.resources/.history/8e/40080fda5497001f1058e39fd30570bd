@@ -1,0 +1,5 @@
+package study07.phone;
+
+public class IPhone2 extends IPhone {
+
+}

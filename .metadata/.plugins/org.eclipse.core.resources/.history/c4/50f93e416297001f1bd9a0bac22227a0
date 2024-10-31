@@ -1,0 +1,14 @@
+package Homework;
+
+public class Unit {
+
+	move, attack
+	
+	public void move() {
+		System.out.println("움직이다.");
+		
+	}
+	
+	
+	
+}

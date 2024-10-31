@@ -1,0 +1,22 @@
+package study06.sec04;
+
+import java.util.Scanner;
+
+public class Recrucive {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		Recrucive obj = new Recrucive();
+		obj.process();
+	}
+
+	public void process() {
+		int sum = sum(10);
+		System.out.println(sum);
+	}
+	
+	public int sum(int num) {
+		if(num==1) return 1;
+		return sum(num-1) + num;
+	}
+}

@@ -1,0 +1,78 @@
+package study06.sec06;
+
+public class Person {
+	// 나이 이름
+	private int age;
+	String name;
+	
+	public void setAge(int age) {
+		while(true) {
+			if(age<0 || age>122) {
+				System.out.println("나이 잘못 입력하셨습니다.");
+				System.out.println("나이 : ");
+			}
+		
+			else {
+				break;
+			}
+		}
+	}
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//	}
+}

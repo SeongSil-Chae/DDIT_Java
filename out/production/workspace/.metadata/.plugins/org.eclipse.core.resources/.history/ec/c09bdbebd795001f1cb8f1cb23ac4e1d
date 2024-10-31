@@ -1,0 +1,22 @@
+package study06.sec06;
+
+public class ttttt {
+12312(name)
+}
+	
+	
+	 class Person{
+		int age;
+		String name;
+	
+	
+	public Person(String name) {
+		this.age = 0;
+		this.name = name;
+	}
+	
+	public void greet() {
+		System.out.println("hello, my name is " +name);
+	}
+	
+	}

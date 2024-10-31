@@ -1,0 +1,6 @@
+package study07.Animal;
+
+public class Cat extends Animal {
+	
+	Cat.
+}

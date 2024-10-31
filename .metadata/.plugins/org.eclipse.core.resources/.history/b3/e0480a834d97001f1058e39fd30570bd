@@ -1,0 +1,11 @@
+package study07;
+
+public class Student {
+	String name;
+	int age;
+	
+	
+	public void print () {
+		System.out.println("student 클래스 입니다.");
+	}
+}

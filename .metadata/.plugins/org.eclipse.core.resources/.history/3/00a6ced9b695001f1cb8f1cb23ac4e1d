@@ -1,0 +1,13 @@
+package study06.sec06;
+
+import util.ScanUtil;
+
+public class PersonMain {
+	public static void main(String[] args) {
+		Person p1 = new Person();
+		p1.age = ScanUtil.nextInt("나이 : ");
+		p1.name = ScanUtil.nextInt("이름 : ");
+		
+		System.out.println(p1.age", "+p1.name);
+	}
+}

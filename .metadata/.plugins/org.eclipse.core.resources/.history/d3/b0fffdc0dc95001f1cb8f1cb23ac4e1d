@@ -1,0 +1,17 @@
+package study06.homework.card;
+
+import java.util.Random;
+
+public class Game {
+	public static void main(String[] args) {
+		//  컴퓨터가 랜덤으로 뽑은 카드와
+		// 내가 뽑은 카드의 숫자를 비교하고 내 숫자가 더 크다면 이겼다를 출시하시오.
+		// 내 카드값과 컴터 카드 값 표시
+		
+		
+		for (int i = 0; i < args.length; i++) {
+			int ran = (int)(Math.random()*Deck.cardSize());
+			
+		}
+	}
+}

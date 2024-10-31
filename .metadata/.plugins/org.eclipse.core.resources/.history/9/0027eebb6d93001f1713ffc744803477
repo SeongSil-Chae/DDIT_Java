@@ -1,0 +1,45 @@
+package kr.or.ddit;
+
+public class newClass {
+public static void main(String[] args) {
+	
+
+	int i; 
+	double d;
+	char c; 
+	String s;
+	
+	int a= 10;
+	double b = 10.0;
+	char ch = 'c';
+	String ss = "helloworld";
+	
+//	0. 배열 생성하기
+	int [] arr1 = new int[10];
+	int [] result = new int[10];
+	// 배열 생성과 동시에 초기화 하기 -> 요소값 10개
+//	int[] arr2 = {1,2,3,4,5,6,7,8,9,10};
+	// 배열 생성만하고 밑에서 값을 넣어주기 -> 요소값 10개
+	result[0] = 1;
+	result[1] = 2;
+	result[2] = 3;
+	result[3] = 4;
+	result[4] = 5;
+	result[5] = 6;
+	result[6] = 7;
+	result[7] = 8;
+	result[8] = 9;
+	result[9] = 10;
+	// for 문 사용하여 넣기
+//	for (int j = 0; j < 10; j++) {
+//		result[j] += j; 
+//	}
+	
+	
+	// 향상된 반복문 이용해서 10개 넣기
+	int[] arr2 = {1,2,3,4,5,6,7,8,9,10};
+	for(int arr4 : arr2) {
+		System.out.print(arr4);
+	}
+	
+}}

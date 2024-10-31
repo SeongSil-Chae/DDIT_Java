@@ -1,0 +1,13 @@
+
+public class repeat {
+	
+	while(true) {
+		eat();
+		sleep();
+		code();
+		continue;
+		if(life==die) {
+			break;
+		}
+	}
+}
