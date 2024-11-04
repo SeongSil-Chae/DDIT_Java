@@ -1,14 +1,9 @@
 package Homework;
 
-public class Unit {
+public abstract class Unit {
 
+	public abstract void move();
 	
-	public void move() {
-		System.out.println("움직이다.");
-	}
-	public void attack() {
-		System.out.println("공격하다.");
-	}
-	
+	public abstract void attack();
 	
 }

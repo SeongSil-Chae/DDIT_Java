@@ -12,6 +12,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="package Homework;"/>
 			<item value="&#x09;&#x09;changeRdf(c.clone());"/>
 			<item value="txt"/>
 			<item value="grade"/>

@@ -2,7 +2,7 @@ package Homework;
 
 import util.ScanUtil;
 
-public class Game extends Unit {
+public abstract class Game extends Unit {
 	public static void main(String[] args) {
 		// Unit
 		// move, attack 메소드 만들기

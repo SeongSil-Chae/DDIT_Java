@@ -2,7 +2,7 @@ package Homework;
 
 import util.ScanUtil;
 
-public class Zealot extends Unit {
+public abstract class Zealot extends Unit {
 
 	@Override
 	public void move() {

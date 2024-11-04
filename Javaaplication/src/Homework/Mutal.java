@@ -1,6 +1,6 @@
 package Homework;
 
-public class Mutal extends Unit {
+public abstract class Mutal extends Unit {
 
 	@Override
 	public void move() {

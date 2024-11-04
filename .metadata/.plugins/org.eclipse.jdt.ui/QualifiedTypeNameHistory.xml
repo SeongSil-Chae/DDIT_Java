@@ -18,7 +18,6 @@
     <fullyQualifiedTypeName name="study06.sec05.Student"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="study06.sec06.Circle"/>
     <fullyQualifiedTypeName name="study06.sec06.Person"/>
     <fullyQualifiedTypeName name="study06.sec06.Jobs"/>
@@ -37,9 +36,20 @@
     <fullyQualifiedTypeName name="study07.phone.SmartPhone"/>
     <fullyQualifiedTypeName name="study07.phone.IPhone"/>
     <fullyQualifiedTypeName name="util.ScanUtil"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="kr.or.ddit.study01.vo.Regions"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="kr.or.ddit.db.DBconn"/>
+    <fullyQualifiedTypeName name="kr.or.ddit.db.DBService"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="kr.or.ddit.Util.ScanUtil"/>
+    <fullyQualifiedTypeName name="kr.or.ddit.member.MemberVo"/>
+    <fullyQualifiedTypeName name="kr.or.ddit.member.MemberMain"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="day03.Animal"/>
+    <fullyQualifiedTypeName name="day03.Human"/>
 </qualifiedTypeNameHistroy>
