@@ -11,7 +11,7 @@ public class ScanUtil {
 		return sc.nextLine();
 	}
 	
-	
+
 	
 	public static int nextInt(String message) {
 		System.out.println(message);

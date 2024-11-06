@@ -1,9 +1,0 @@
-package study06.sec06;
-
-public class jobsMain {
-	public static void main(String[] args) {
-		Jobs j1 = new Jobs();
-		
-		
-	}
-}

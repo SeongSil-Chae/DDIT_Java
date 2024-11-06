@@ -13,7 +13,6 @@ public class Homework14 {
 		Homework14 obj = new Homework14();
 		obj.process();
 	}
-
 	public void process() {
 		// 로또 숫자가 1~8 범위일때 로또 클래스를 구하시오.
 		// 당첨 번호를 회차별로 생성하고

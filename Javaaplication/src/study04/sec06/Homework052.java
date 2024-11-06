@@ -9,7 +9,7 @@ public class Homework052 {
 		Homework052 obj = new Homework052();
 		obj.process();
 	}
-
+ 
 	public void process() {
 //		method1();
 //		method2();

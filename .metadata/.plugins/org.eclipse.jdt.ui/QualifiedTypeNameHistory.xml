@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="study11.MathExample"/>
     <fullyQualifiedTypeName name="study06.sec05.StaticExample01"/>
     <fullyQualifiedTypeName name="study06.sec05.Student"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="study06.sec06.Circle"/>
     <fullyQualifiedTypeName name="study06.sec06.Person"/>
@@ -35,7 +34,6 @@
     <fullyQualifiedTypeName name="study07.ExtendExample02"/>
     <fullyQualifiedTypeName name="study07.phone.SmartPhone"/>
     <fullyQualifiedTypeName name="study07.phone.IPhone"/>
-    <fullyQualifiedTypeName name="util.ScanUtil"/>
     <fullyQualifiedTypeName name="kr.or.ddit.study01.vo.Regions"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
@@ -49,7 +47,16 @@
     <fullyQualifiedTypeName name="kr.or.ddit.Util.ScanUtil"/>
     <fullyQualifiedTypeName name="kr.or.ddit.member.MemberVo"/>
     <fullyQualifiedTypeName name="kr.or.ddit.member.MemberMain"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="day03.Animal"/>
     <fullyQualifiedTypeName name="day03.Human"/>
+    <fullyQualifiedTypeName name="study08.board.IBoard"/>
+    <fullyQualifiedTypeName name="study08.board.BoardImpl"/>
+    <fullyQualifiedTypeName name="study09.ClassA.ClassB"/>
+    <fullyQualifiedTypeName name="study09.ClassA.ClassC"/>
+    <fullyQualifiedTypeName name="study10.ExceptionExample01"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="study10.ExceptionExample03"/>
+    <fullyQualifiedTypeName name="util.ScanUtil"/>
+    <fullyQualifiedTypeName name="study10.Homework18"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
