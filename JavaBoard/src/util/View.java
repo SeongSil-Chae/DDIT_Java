@@ -1,0 +1,7 @@
+package util;
+
+public enum View {
+	MAIN, LOGIN, BOARD_INSERT, BOARD_LIST,
+	BOARD_DETAIL, BOARD_UPDATE, BOARD_DELETE
+	
+}

@@ -1,9 +1,0 @@
-package Homework;
-
-import util.ScanUtil;
-
-public class Zealot extends Unit {
-
-	
-
-}
